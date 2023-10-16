@@ -10,4 +10,7 @@ body {
     color:rgb(224, 178, 204);
 }
 
-
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
