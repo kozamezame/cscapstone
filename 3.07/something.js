@@ -1,14 +1,11 @@
+var p = document.querySelector("haha");
 
-var currentMargin = 0;
-function nextFrame()
+p.innerHTML = "wee";
+
+function nextFrameTwo()
 {
-    currentMargin ++;
-    p.style.margin = currentMargin + "1px";
+    currentText = p.innerHTML;
+    p.innerHTML = currentText + "e";
 }
 
-var animation;
-function play()
-{
-    animation = setInterval(nextFrame,20);
-}
-play();
+nextFrameTwo;
