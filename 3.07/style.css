@@ -13,19 +13,23 @@ body {
 ul {
     text-align: center;
     list-style-position: inside;
-    border-style: dashed;
+    border-style: double;
 }
 
 ol{
     text-align: center;
     list-style-position: inside;
-    border-style: dashed;
+    border-style: double;
 }
 
 p {
-    border-style: dashed;
+    border-style: double;
 }
 
 img{
-    border-style: dashed
+    border-style: double;
+}
+
+.col-sm {
+    border-style: double;
 }
